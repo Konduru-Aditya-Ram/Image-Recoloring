@@ -9,13 +9,13 @@ from skimage.color import rgb2lab, lab2rgb
 
 def mse(y_true, y_pred):
     return tf.reduce_mean(tf.square(y_pred - y_true))
-
+#Replace your path to model insted of 'C:\Users\Kondu\project(iitSoC)\models\Image colorizer.keras'
 model = tf.keras.models.load_model(r'C:\Users\Kondu\project(iitSoC)\models\Image colorizer.keras',
                                    custom_objects={'mse': mse},
                                    compile=True)
 
 img1_color=[]
-image_path=r"C:\Users\Kondu\OneDrive\Desktop\dataset(color images-2)\temp\prabhas-3.jpg"
+image_path=r"C:\Users\Kondu\OneDrive\Desktop\dataset(color images-2)\temp\prabhas-3.jpg"#Path to image
 ori=img_to_array(load_img(image_path))
 ori_cv=cv.imread(image_path)
 
