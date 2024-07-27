@@ -11,9 +11,8 @@ The model can be readily located within the 'models' file, while the code requir
 
 Resources used for learning concepts:
         Fundamentals of image processing:https://realpython.com/lessons/how-computers-see-images/#:~:text=They%20operate%20on%20binary%20values,are%20all%20called%20color%20channels.
-         
-       OpenCv :
-       https://docs.opencv.org/4.x/d2/d96/tutorial_py_table_of_contents_imgproc.html
+        OpenCV:
+        https://docs.opencv.org/4.x/d2/d96/tutorial_py_table_of_contents_imgproc.html
         ML:
         https://youtu.be/GwIo3gDZCVQ?si=u0wlpo01sjPEj08l
         CNN:
